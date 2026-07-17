@@ -49,7 +49,7 @@ empty strings or `null`).
 ```json
 {
   "id": "kebab-case-unique-slug",
-  "category": "data | web | odoo | software",
+  "category": "data | web | odoo | software | blockchain",
   "priority": 0,
   "title": "Project Name",
   "subtitle": "One-line description of what it is",
@@ -65,7 +65,7 @@ Rules for each field:
 
 - `id`: lowercase, kebab-case, unique across the whole file. Once set,
   don't change it unless explicitly asked — it may be referenced elsewhere.
-- `category`: must be one of the four existing values. If a new project
+- `category`: must be one of the five existing values. If a new project
   doesn't fit any of them, flag it in chat before inventing a new category
   — adding one also requires updating `CATEGORIES` in the portfolio's
   `Projects.jsx` (a separate repo), so it's a two-repo change, not just this

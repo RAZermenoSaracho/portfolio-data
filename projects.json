@@ -1,14 +1,5 @@
 [
   {
-    "id": "software-homelab-infrastructure",
-    "category": "software",
-    "priority": 96,
-    "title": "Homelab Server Infrastructure",
-    "subtitle": "Self-hosted 24/7 production environment",
-    "tech": "macOS · pm2 · Cloudflare Tunnel · Custom Domain Routing · GitHub Automation",
-    "description": "A repurposed Mac converted into a 24/7 home server, hosting multiple production services managed with pm2 process management and exposed securely to the public internet through a Cloudflare Tunnel with per-service subdomains under a custom domain. Includes GitHub-based automation to keep portfolio data in sync and restrictive CORS policies across self-hosted APIs."
-  },
-  {
     "id": "web-flowledger",
     "category": "web",
     "priority": 100,
@@ -22,7 +13,7 @@
   {
     "id": "web-quantlab",
     "category": "software",
-    "priority": 100,
+    "priority": 90,
     "title": "QuantLab",
     "subtitle": "Algorithmic Trading Strategy Lab",
     "tech": "React · TypeScript · Node.js · Express · Python · PostgreSQL",
@@ -30,9 +21,108 @@
     "github": "https://github.com/RAZermenoSaracho/quantlab"
   },
   {
+    "id": "blockchain-m9-defi-staking-protocol",
+    "category": "blockchain",
+    "priority": 89,
+    "title": "DeFi Staking Protocol",
+    "subtitle": "Full staking protocol with an autocompounding vault and a wrapped token",
+    "tech": "Solidity · Foundry · ERC-20",
+    "description": "A complete DeFi staking protocol built around a native token and its wrapped ERC-20 counterpart, including a staking contract, a deposit contract, and an autocompounding vault that reinvests staking rewards automatically.",
+    "github": "https://github.com/RAZermenoSaracho/mtn-staking-contract-m9"
+  },
+  {
+    "id": "blockchain-m8-upgradeable-game-economy",
+    "category": "blockchain",
+    "priority": 88,
+    "title": "Upgradeable Game Economy",
+    "subtitle": "ERC-1155 in-game economy upgradeable via the UUPS proxy pattern",
+    "tech": "Solidity · Foundry · ERC-1155 · UUPS Proxy",
+    "description": "An ERC-1155-based in-game economy deployed behind a UUPS upgradeable proxy, with a V1/V2 implementation pair and an upgrade script demonstrating a live contract upgrade without losing state or token balances.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m8-upgradeable-game-economy"
+  },
+  {
+    "id": "blockchain-m7-dao-governance",
+    "category": "blockchain",
+    "priority": 87,
+    "title": "DAO Governance System",
+    "subtitle": "End-to-end on-chain governance with treasury and participation-based voting",
+    "tech": "Solidity · Foundry",
+    "description": "A complete DAO governance system with a governor contract for proposal creation and voting, a participation token used as voting weight, and a treasury managing funds for earner and managed contracts approved by governance. Includes integration tests covering the full proposal lifecycle.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m7-dao-governance"
+  },
+  {
+    "id": "blockchain-m6-timelocked-wallet",
+    "category": "blockchain",
+    "priority": 86,
+    "title": "Time-Locked Wallet",
+    "subtitle": "Wallet contract with withdrawal timelocks and reentrancy-attack test coverage",
+    "tech": "Solidity · Foundry",
+    "description": "A wallet contract that locks deposited funds until a configurable release time, built with a dedicated Foundry test suite that simulates reentrancy attacks to verify the withdrawal logic holds under adversarial conditions.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m6-timelocked-wallet"
+  },
+  {
+    "id": "blockchain-m5-token-sale-dapp",
+    "category": "blockchain",
+    "priority": 85,
+    "title": "Token Sale DApp",
+    "subtitle": "Full-stack token sale with a capped ERC-20 and a wallet-connected frontend",
+    "tech": "Solidity · Foundry · React · TypeScript · Vite",
+    "description": "A capped ERC-20 token sold through a dedicated sale contract, paired with a React/TypeScript/Vite frontend that connects a wallet and lets users buy and sell tokens directly against the contract.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m5-token-sale-dapp"
+  },
+  {
+    "id": "blockchain-m4-nft-vesting-vault",
+    "category": "blockchain",
+    "priority": 84,
+    "title": "NFT Loot Crates & Token Vesting Vault",
+    "subtitle": "ERC-1155 loot crates combined with a linear token vesting vault",
+    "tech": "Solidity · Foundry · ERC-1155",
+    "description": "An ERC-1155 loot crate and metaverse item collection paired with a vesting token and vesting vault that releases allocations to beneficiaries on a linear schedule. Covers multi-token standards alongside time-based vesting logic.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m4-nft-vesting-vault"
+  },
+  {
+    "id": "blockchain-m3-rewards-vault",
+    "category": "blockchain",
+    "priority": 83,
+    "title": "Community Token Rewards Vault",
+    "subtitle": "ERC-20 token with a staking-style rewards vault",
+    "tech": "Solidity · Foundry · ERC-20",
+    "description": "An ERC-20 community token paired with a rewards vault contract that lets holders deposit tokens and accrue rewards over time. Covers ERC-20 mechanics and vault accounting patterns.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m3-rewards-vault"
+  },
+  {
+    "id": "blockchain-m2-escrow-factory",
+    "category": "blockchain",
+    "priority": 82,
+    "title": "Escrow Factory",
+    "subtitle": "Factory pattern for deploying trustless two-party escrow agreements",
+    "tech": "Solidity · Foundry",
+    "description": "A factory contract that deploys individual escrow instances, each holding funds between a buyer and seller until agreed conditions are met. Demonstrates the factory/clone deployment pattern in Solidity.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m2-escrow-factory"
+  },
+  {
+    "id": "blockchain-m1-crowdfund-auction-nft",
+    "category": "blockchain",
+    "priority": 81,
+    "title": "Crowdfunding & Auction Contracts",
+    "subtitle": "Solidity fundamentals: crowdfunding, English auctions, and NFTs",
+    "tech": "Solidity · Foundry",
+    "description": "A collection of foundational smart contracts covering a crowdfunding campaign hub, a time-boxed English auction with bid refunds, and a minimal ERC-721 NFT used as the auctioned asset. Built and tested with Foundry as part of the Metana Solidity bootcamp.",
+    "github": "https://github.com/RAZermenoSaracho/metana-m1-crowdfund-auction-nft"
+  },
+  {
+    "id": "software-homelab-infrastructure",
+    "category": "software",
+    "priority": 80,
+    "title": "Homelab Server Infrastructure",
+    "subtitle": "Self-hosted 24/7 production environment",
+    "tech": "macOS · pm2 · Cloudflare Tunnel · Custom Domain Routing · GitHub Automation",
+    "description": "A repurposed Mac converted into a 24/7 home server, hosting multiple production services managed with pm2 process management and exposed securely to the public internet through a Cloudflare Tunnel with per-service subdomains under a custom domain. Includes GitHub-based automation to keep portfolio data in sync and restrictive CORS policies across self-hosted APIs."
+  },
+  {
     "id": "web-real-value-marketing",
     "category": "web",
-    "priority": 95,
+    "priority": 70,
     "title": "Real Value Marketing",
     "subtitle": "Lead Generation Website with CRM Integration",
     "tech": "React · TypeScript · Vite · Node.js · Express · Odoo CRM · Vercel · Railway",
@@ -43,7 +133,7 @@
   {
     "id": "web-react-min-handbook",
     "category": "web",
-    "priority": 90,
+    "priority": 60,
     "title": "React Minimal Handbook",
     "subtitle": "Interactive Guide to Core React Concepts",
     "tech": "React · TypeScript · Vite · Tailwind · WebSockets · REST APIs",
@@ -54,7 +144,7 @@
   {
     "id": "spacex-falcon9-landing-prediction",
     "category": "data",
-    "priority": 85,
+    "priority": 50,
     "title": "SpaceX Falcon 9 Landing Prediction",
     "subtitle": "End-to-end Data Science project with live interactive dashboard",
     "tech": "Python · Pandas · SQL · Scikit-learn · Plotly · Dash",
@@ -65,7 +155,7 @@
   {
     "id": "web-studentoverflow",
     "category": "web",
-    "priority": 80,
+    "priority": 40,
     "title": "StudentOverflow",
     "subtitle": "Full-stack Q&A platform (StackOverflow clone)",
     "tech": "Flask · PostgreSQL · Bootstrap · SQLAlchemy",
@@ -76,7 +166,7 @@
   {
     "id": "software-ai-router",
     "category": "software",
-    "priority": 77,
+    "priority": 30,
     "title": "AI Router & Ops Agent",
     "subtitle": "Self-hosted AI orchestration router with a Telegram-based Ops Agent",
     "tech": "Node.js · Claude Agent SDK · Telegram Bot API",
@@ -85,7 +175,7 @@
   {
     "id": "odoo-many2many-razs-widget",
     "category": "odoo",
-    "priority": 75,
+    "priority": 20,
     "title": "Many2many Razs Tags Widget (Odoo App)",
     "subtitle": "Odoo 19 Addon published on the official App Store",
     "tech": "Odoo · JavaScript · XML · SCSS · OWL",
@@ -96,7 +186,7 @@
   {
     "id": "odoo-quote-builder",
     "category": "odoo",
-    "priority": 70,
+    "priority": 10,
     "title": "Quote Builder Report Link (Odoo App)",
     "subtitle": "Odoo 18 Addon published on the official App Store",
     "tech": "Odoo · Python · XML · QWeb · ORM",
@@ -106,7 +196,7 @@
   {
     "id": "web-job-scraper",
     "category": "web",
-    "priority": 65,
+    "priority": 0,
     "title": "Job Scraper Dashboard",
     "subtitle": "Automated job board scraper with a review dashboard",
     "tech": "FastAPI · Selenium · Python · React · Vite · Tailwind · Axios",
@@ -117,7 +207,7 @@
   {
     "id": "web-portfolio",
     "category": "web",
-    "priority": 60,
+    "priority": -10,
     "title": "Developer Portfolio",
     "subtitle": "Personal website & project showcase",
     "tech": "React · Vite · CSS",
@@ -128,7 +218,7 @@
   {
     "id": "web-moodflow",
     "category": "web",
-    "priority": 55,
+    "priority": -20,
     "title": "MoodFlow",
     "subtitle": "Mood & Weather-based To-Do App",
     "tech": "HTML · CSS · JavaScript · Open-Meteo API",
@@ -139,7 +229,7 @@
   {
     "id": "web-pokedex",
     "category": "web",
-    "priority": 50,
+    "priority": -30,
     "title": "Pokédex Explorer",
     "subtitle": "Dynamic Pokémon search interface using the PokéAPI",
     "tech": "HTML · CSS · JavaScript · PokéAPI",
@@ -150,7 +240,7 @@
   {
     "id": "software-galaga",
     "category": "software",
-    "priority": 45,
+    "priority": -40,
     "title": "Space Shooter Game (Galaga)",
     "subtitle": "Arcade-style desktop game built with Python",
     "tech": "Python · Pygame · OpenCV",
@@ -160,7 +250,7 @@
   {
     "id": "web-todo-app",
     "category": "software",
-    "priority": 40,
+    "priority": -50,
     "title": "Todo App",
     "subtitle": "Minimal task manager",
     "tech": "Python · Tkinter · PostgreSQL",
