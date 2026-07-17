@@ -16,7 +16,8 @@
     "subtitle": "Personal Finance Management Platform",
     "tech": "React · TypeScript · Node.js · Express · Prisma · PostgreSQL · JWT · Zod",
     "description": "A web-first personal finance platform for aggregating and understanding financial activity from a single dashboard, supporting shared expenses, debt tracking, bank integrations, and automated transaction imports. Built as an npm workspaces monorepo with a Prisma/PostgreSQL backend and a React frontend.",
-    "demo": "https://flowledger.razs.dev"
+    "demo": "https://flowledger.razs.dev",
+    "github": "https://github.com/RAZermenoSaracho/flowledger"
   },
   {
     "id": "web-quantlab",
