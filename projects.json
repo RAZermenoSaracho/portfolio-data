@@ -11,7 +11,7 @@
   {
     "id": "web-flowledger",
     "category": "web",
-    "priority": 93,
+    "priority": 100,
     "title": "FlowLedger",
     "subtitle": "Personal Finance Management Platform",
     "tech": "React · TypeScript · Node.js · Express · Prisma · PostgreSQL · JWT · Zod",
