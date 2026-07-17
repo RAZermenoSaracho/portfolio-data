@@ -1,5 +1,24 @@
 [
   {
+    "id": "software-homelab-infrastructure",
+    "category": "software",
+    "priority": 96,
+    "title": "Homelab Server Infrastructure",
+    "subtitle": "Self-hosted 24/7 production environment",
+    "tech": "macOS · pm2 · Cloudflare Tunnel · Custom Domain Routing · GitHub Automation",
+    "description": "A repurposed Mac converted into a 24/7 home server, hosting multiple production services managed with pm2 process management and exposed securely to the public internet through a Cloudflare Tunnel with per-service subdomains under a custom domain. Includes GitHub-based automation to keep portfolio data in sync and restrictive CORS policies across self-hosted APIs."
+  },
+  {
+    "id": "web-flowledger",
+    "category": "web",
+    "priority": 93,
+    "title": "FlowLedger",
+    "subtitle": "Personal Finance Management Platform",
+    "tech": "React · TypeScript · Node.js · Express · Prisma · PostgreSQL · JWT · Zod",
+    "description": "A web-first personal finance platform for aggregating and understanding financial activity from a single dashboard, supporting shared expenses, debt tracking, bank integrations, and automated transaction imports. Built as an npm workspaces monorepo with a Prisma/PostgreSQL backend and a React frontend.",
+    "demo": "https://flowledger.razs.dev"
+  },
+  {
     "id": "web-quantlab",
     "category": "software",
     "priority": 100,
@@ -54,6 +73,15 @@
     "demo": "https://studentoverflow-j8tk.onrender.com/"
   },
   {
+    "id": "software-ai-router",
+    "category": "software",
+    "priority": 77,
+    "title": "AI Router & Ops Agent",
+    "subtitle": "Self-hosted AI orchestration router with a Telegram-based Ops Agent",
+    "tech": "Node.js · Claude Agent SDK · Telegram Bot API",
+    "description": "Self-hosted orchestration service built on the Claude Agent SDK that routes AI-driven tasks and exposes a read-only Ops Agent through a Telegram bot for monitoring and managing production services remotely."
+  },
+  {
     "id": "odoo-many2many-razs-widget",
     "category": "odoo",
     "priority": 75,
@@ -75,6 +103,17 @@
     "appstore": "https://apps.odoo.com/apps/modules/18.0/quote_builder_report_link"
   },
   {
+    "id": "web-job-scraper",
+    "category": "web",
+    "priority": 65,
+    "title": "Job Scraper Dashboard",
+    "subtitle": "Automated job board scraper with a review dashboard",
+    "tech": "FastAPI · Selenium · Python · React · Vite · Tailwind · Axios",
+    "description": "A two-part tool for job hunting: a FastAPI backend that scrapes job boards for postings matching configurable keywords and ranks them by relevance, paired with a React dashboard for reviewing results, discarding non-fits, and exporting a shortlist to Excel.",
+    "github": "https://github.com/RAZermenoSaracho/job_scraper_frontend",
+    "demo": "https://jobs.razs.dev"
+  },
+  {
     "id": "web-portfolio",
     "category": "web",
     "priority": 60,
@@ -83,7 +122,7 @@
     "tech": "React · Vite · CSS",
     "description": "Responsive portfolio website showcasing projects in data, web development, and software engineering.",
     "github": "https://github.com/RAZermenoSaracho/my-portfolio",
-    "demo": "https://razs.vercel.app/"
+    "demo": "https://razs.dev/"
   },
   {
     "id": "web-moodflow",
