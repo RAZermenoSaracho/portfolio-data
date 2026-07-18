@@ -191,8 +191,9 @@
     "subtitle": "Odoo 18 Addon published on the official App Store",
     "tech": "Odoo · Python · XML · QWeb · ORM",
     "description": "Production-ready Odoo module adding a direct report download button to the quotation form.",
-    "appstore": "https://apps.odoo.com/apps/modules/18.0/quote_builder_report_link"
-  },
+    "appstore": "https://apps.odoo.com/apps/modules/18.0/quote_builder_report_link",
+    "github": "https://github.com/RAZermenoSaracho/quote_builder_report_link"  
+},
   {
     "id": "web-job-scraper",
     "category": "web",
