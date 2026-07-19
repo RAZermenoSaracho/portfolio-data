@@ -19,7 +19,7 @@
     "tech": "React · TypeScript · Node.js · Express · Python · PostgreSQL",
     "description": "Full-stack platform for building, backtesting, and optimizing algorithmic trading strategies. Features a deterministic Python trading engine, historical backtesting, paper trading simulation, and a parameter optimizer that automatically evaluates multiple strategy configurations.",
     "github": "https://github.com/RAZermenoSaracho/quantlab",
-    "demo":"https://quantlab-dev.razs.dev"
+    "demo": "https://quantlab-dev.razs.dev"
   },
   {
     "id": "blockchain-m9-defi-staking-protocol",
