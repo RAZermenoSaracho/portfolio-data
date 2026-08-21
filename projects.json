@@ -1,5 +1,25 @@
 [
   {
+    "id": "web-blog-portfolio-platform",
+    "category": "web",
+    "priority": 120,
+    "title": "Blog & Portfolio Platform",
+    "subtitle": "Full-stack blog and portfolio app with JWT auth, tested and deployed to AWS EC2",
+    "tech": "React · TailwindCSS · Node.js · Express · PostgreSQL · JWT · Jest · Cypress",
+    "description": "A full-stack blog and portfolio platform with JWT-based authentication and role-based access control, a React/Tailwind frontend, and a Node.js/Express/PostgreSQL backend, covered by Jest unit tests and Cypress end-to-end tests. Deployed to a production AWS EC2 instance behind an Nginx reverse proxy with PM2 process management and Let's Encrypt HTTPS. Built iteratively through modules 7-11 of the Metana Full Stack bootcamp, progressing from UI/UX design through backend integration, authentication, testing, and live deployment.",
+    "github": "https://github.com/RAZermenoSaracho/fullstack-blog-portfolio-platform"
+  },
+  {
+    "id": "web-postgres-blog-user-api",
+    "category": "web",
+    "priority": 110,
+    "title": "PostgreSQL Blog & User API",
+    "subtitle": "REST API for blogs and users backed by a relational PostgreSQL schema",
+    "tech": "Node.js · Express · PostgreSQL",
+    "description": "A REST API for managing users and blogs, backed by a normalized PostgreSQL schema with foreign keys, cascading deletes, and seed/init scripts for standing up the database. Users can have many blogs, each blog belongs to a single user, and the API includes request logging and centralized error-handling middleware. Developed across modules 5-6 of the Metana Full Stack bootcamp, migrating an earlier MongoDB-based version to a fully relational PostgreSQL backend.",
+    "github": "https://github.com/RAZermenoSaracho/postgres-blog-user-api"
+  },
+  {
     "id": "web-flowledger",
     "category": "web",
     "priority": 100,
@@ -28,7 +48,7 @@
     "title": "DeFi Staking Protocol",
     "subtitle": "Full staking protocol with an autocompounding vault and a wrapped token",
     "tech": "Solidity · Foundry · ERC-20",
-    "description": "A complete DeFi staking protocol built around a native token and its wrapped ERC-20 counterpart, including a staking contract, a deposit contract, and an autocompounding vault that reinvests staking rewards automatically.",
+    "description": "A complete DeFi staking protocol built around a native token and its wrapped ERC-20 counterpart, including a staking contract, a deposit contract, and an autocompounding vault that reinvests staking rewards automatically. Built as part of the Metana Solidity bootcamp.",
     "github": "https://github.com/RAZermenoSaracho/mtn-staking-contract-m9"
   },
   {
@@ -38,7 +58,7 @@
     "title": "Upgradeable Game Economy",
     "subtitle": "ERC-1155 in-game economy upgradeable via the UUPS proxy pattern",
     "tech": "Solidity · Foundry · ERC-1155 · UUPS Proxy",
-    "description": "An ERC-1155-based in-game economy deployed behind a UUPS upgradeable proxy, with a V1/V2 implementation pair and an upgrade script demonstrating a live contract upgrade without losing state or token balances.",
+    "description": "An ERC-1155-based in-game economy deployed behind a UUPS upgradeable proxy, with a V1/V2 implementation pair and an upgrade script demonstrating a live contract upgrade without losing state or token balances. Built as part of the Metana Solidity bootcamp.",
     "github": "https://github.com/RAZermenoSaracho/metana-m8-upgradeable-game-economy"
   },
   {
@@ -48,7 +68,7 @@
     "title": "DAO Governance System",
     "subtitle": "End-to-end on-chain governance with treasury and participation-based voting",
     "tech": "Solidity · Foundry",
-    "description": "A complete DAO governance system with a governor contract for proposal creation and voting, a participation token used as voting weight, and a treasury managing funds for earner and managed contracts approved by governance. Includes integration tests covering the full proposal lifecycle.",
+    "description": "A complete DAO governance system with a governor contract for proposal creation and voting, a participation token used as voting weight, and a treasury managing funds for earner and managed contracts approved by governance. Includes integration tests covering the full proposal lifecycle. Built as part of the Metana Solidity bootcamp.",
     "github": "https://github.com/RAZermenoSaracho/metana-m7-dao-governance"
   },
   {
@@ -78,7 +98,7 @@
     "title": "NFT Loot Crates & Token Vesting Vault",
     "subtitle": "ERC-1155 loot crates combined with a linear token vesting vault",
     "tech": "Solidity · Foundry · ERC-1155",
-    "description": "An ERC-1155 loot crate and metaverse item collection paired with a vesting token and vesting vault that releases allocations to beneficiaries on a linear schedule. Covers multi-token standards alongside time-based vesting logic.",
+    "description": "An ERC-1155 loot crate and metaverse item collection paired with a vesting token and vesting vault that releases allocations to beneficiaries on a linear schedule. Covers multi-token standards alongside time-based vesting logic. Built as part of the Metana Solidity bootcamp.",
     "github": "https://github.com/RAZermenoSaracho/metana-m4-nft-vesting-vault"
   },
   {
@@ -88,7 +108,7 @@
     "title": "Community Token Rewards Vault",
     "subtitle": "ERC-20 token with a staking-style rewards vault",
     "tech": "Solidity · Foundry · ERC-20",
-    "description": "An ERC-20 community token paired with a rewards vault contract that lets holders deposit tokens and accrue rewards over time. Covers ERC-20 mechanics and vault accounting patterns.",
+    "description": "An ERC-20 community token paired with a rewards vault contract that lets holders deposit tokens and accrue rewards over time. Covers ERC-20 mechanics and vault accounting patterns. Built as part of the Metana Solidity bootcamp.",
     "github": "https://github.com/RAZermenoSaracho/metana-m3-rewards-vault"
   },
   {
