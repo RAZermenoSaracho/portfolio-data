@@ -42,6 +42,17 @@
     "demo": "https://quantlab-dev.razs.dev"
   },
   {
+    "id": "blockchain-orderkeeper",
+    "category": "blockchain",
+    "priority": 95,
+    "title": "OrderKeeper",
+    "subtitle": "Trust-minimized limit-order keeper bot for EVM chains, live on Sepolia",
+    "tech": "Solidity · Foundry · Chainlink · Uniswap V2 · Node.js · TypeScript · Fastify · PostgreSQL · React · viem",
+    "description": "A decentralized limit-order keeper bot for EVM chains: users deposit funds and define a price condition (e.g. sell ETH once it reaches a target price), and a self-run keeper bot monitors a Chainlink price feed and triggers execution via Uniswap once the condition holds. The smart contract independently re-verifies the price on-chain before moving any funds, so the off-chain bot is trusted only as a trigger, never as a price source. Deployed and verified end-to-end on Sepolia testnet, with the contracts, an event-indexing REST API, the keeper bot, and a React frontend each running as independent, continuously-deployed services.",
+    "github": "https://github.com/RAZermenoSaracho/orderkeeper",
+    "demo": "https://orderkeeper.razs.dev"
+  },
+  {
     "id": "blockchain-m9-defi-staking-protocol",
     "category": "blockchain",
     "priority": 89,
