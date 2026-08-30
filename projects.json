@@ -2,7 +2,7 @@
   {
     "id": "web-blog-portfolio-platform",
     "category": "web",
-    "priority": 120,
+    "priority": 50,
     "title": "Blog & Portfolio Platform",
     "subtitle": "Full-stack blog and portfolio app with JWT auth, tested and deployed to AWS EC2",
     "tech": "React · TailwindCSS · Node.js · Express · PostgreSQL · JWT · Jest · Cypress",
