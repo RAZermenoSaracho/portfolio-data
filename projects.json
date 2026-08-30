@@ -12,7 +12,7 @@
   {
     "id": "web-postgres-blog-user-api",
     "category": "web",
-    "priority": 110,
+    "priority": 50,
     "title": "PostgreSQL Blog & User API",
     "subtitle": "REST API for blogs and users backed by a relational PostgreSQL schema",
     "tech": "Node.js · Express · PostgreSQL",
