@@ -9,5 +9,5 @@
 
 ## 3. Publish and verify
 
-- [ ] 3.1 Merge to `master` after the frontend is verified in production, before `pm2 stop cv-download-api`
-- [ ] 3.2 Within about 5 minutes `curl -s https://projects.razs.dev/` reflects the change
+- [x] 3.1 Merge to `master` after the frontend is verified in production, before `pm2 stop cv-download-api`
+- [x] 3.2 Within about 5 minutes `curl -s https://projects.razs.dev/` reflects the change
