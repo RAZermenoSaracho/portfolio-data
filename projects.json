@@ -298,7 +298,6 @@
     "subtitle": "On-demand PDF resume generator",
     "tech": "Fastify · pdfmake · Node.js",
     "description": "Lightweight Fastify API that generates my resume as a PDF on demand using pdfmake, powering the Download CV button on my portfolio site.",
-    "github": "https://github.com/RAZermenoSaracho/cv_download",
-    "demo": "https://cv-api.razs.dev/cv"
+    "github": "https://github.com/RAZermenoSaracho/cv_download"
   }
 ]
