@@ -1,7 +1,7 @@
 # project-catalog Specification
 
 ## Purpose
-TBD - created by archiving change update-cv-download-entry. Update Purpose after archive.
+Defines how portfolio projects are listed in projects.json, the data served by portfolio-api.
 
 ## Requirements
 
