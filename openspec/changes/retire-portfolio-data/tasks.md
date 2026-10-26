@@ -15,4 +15,4 @@
 
 ## 3. Rollback (only if needed)
 
-- [ ] 3.1 `gh repo unarchive`, then restore `SOURCE_URL` in portfolio-api and redeploy
+- [ ] 3.1 Reverse order: revert my-portfolio first; then `gh repo unarchive` (if archived) and revert portfolio-api to restore `SOURCE_URL`; razs_jobs fields can stay (`is_public=False` if needed)
