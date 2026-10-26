@@ -22,12 +22,14 @@ Exploration grep found no runtime consumer other than `portfolio-api`'s `SOURCE_
 
 ## Rollback
 
-`gh repo unarchive RAZermenoSaracho/portfolio-data`, then restore `SOURCE_URL` and the old `getProjects()` in `portfolio-api` (revert the `serve-portfolio-from-odoo` commit or redeploy the previous one). `projects.json` is unchanged, so the old behavior returns.
+Rollback runs in reverse order: (1) revert my-portfolio first; (2) then revert portfolio-api, which restores `SOURCE_URL` and requires portfolio-data to be unarchived (if already archived, run `gh repo unarchive RAZermenoSaracho/portfolio-data` first); (3) the razs_jobs fields can stay, set `is_public=False` if needed.
+
+Here this means: `gh repo unarchive` first if needed. `projects.json` is unchanged, so the old behavior returns.
 
 ## Capabilities
 
 ### Modified Capabilities
-- `project-catalog`: declared superseded by Odoo.
+- `project-catalog`: adds a requirement declaring it superseded by Odoo (delta uses ADDED; existing requirements are untouched).
 
 ## Impact
 
